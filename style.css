@@ -1,0 +1,29 @@
+#imagen-portada {
+    width: 20%;
+}
+
+#container-portada {
+    background-color: black;
+    display: flex;
+    align-items: center;
+
+}
+
+#container-titulo-portada {
+    width: 100%;
+
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+#titulo-portada {
+    color: beige;
+    text-decoration: underline yellow;
+    font-size: 5vw;
+}
