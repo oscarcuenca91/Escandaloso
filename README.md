@@ -1,0 +1,2 @@
+# Escandaloso
+periódico
