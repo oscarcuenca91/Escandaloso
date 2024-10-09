@@ -39,3 +39,26 @@ function seleccionadorVocales(palabra) {
 let cuantasVocales = "Cuantas vocales tienes";
 seleccionadorVocales(cuantasVocales);
 //-----------------------------------------------------------------------
+
+//Crear persona, ejemplo POO
+class Persona {
+  nombre = "Homero";
+  apellido = "Simpson";
+  direccion = "Ave. Siempreviva 742";
+  telefono = 5553472;
+  email = "nomejodas@hotmail.com";
+
+  trabajar() {
+    return "Trabaja en la planta nuclear";
+  }
+  estudiar() {
+    return "Primaria de Springfield";
+  }
+}
+
+const homero = new Persona();
+//Ecantamiento de tiempo jajajajajajaja
+
+//Trae la fecha actual
+let fecha = new Date();
+document.write(fecha.getDay() + fecha.getHours);
